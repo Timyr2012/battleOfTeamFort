@@ -28,7 +28,7 @@ namespace ConsoleApp1
             {
                 forceOfMagic = 10;
             }
-            double forceOfCristal = rand.Next(1, 100);
+            double forceOfCristal = rand.Next(1, 101);
             double rampedUpPower = Math.Pow(forceOfMagic, 2);
             double finalspellpower = Math.Round(rampedUpPower + forceOfCristal / 2);
             Console.WriteLine($"Вітаю {name}!");
@@ -40,3 +40,4 @@ namespace ConsoleApp1
         }
     }
 }
+
